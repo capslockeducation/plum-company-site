@@ -90,7 +90,7 @@
             "callsToAction": [
                 {
                     "text": "LinkedIn",
-                    "actionLink": "",
+                    "actionLink": "https://www.linkedin.com/in/stefan-pettersson-26825121a/",
                     "external": true
                 }
             ]
@@ -184,8 +184,8 @@
             "profileId": 10,
             "callsToAction": [
                 {
-                    "text": "LinkedIn",
-                    "actionLink": "",
+                    "text": "Twitter",
+                    "actionLink": "https://twitter.com/plum_jan",
                     "external": true
                 }
             ]
@@ -267,8 +267,9 @@
             "profileId": 14,
             "callsToAction": [
                 {
-                    "text": "click here to find out more",
-                    "actionLink": ""
+                    "text": "Click here to find out more",
+                    "actionLink": "",
+                    "external": false
                 }
             ]
         },
@@ -285,8 +286,9 @@
             "profileId": 15,
             "callsToAction": [
                 {
-                    "text": "click here to find out more",
-                    "actionLink": ""
+                    "text": "Click here to find out more",
+                    "actionLink": "",
+                    "external": false
                 }
             ]
         },
@@ -303,8 +305,9 @@
             "profileId": 16,
             "callsToAction": [
                 {
-                    "text": "click here to find out more",
-                    "actionLink": ""
+                    "text": "Click here to find out more",
+                    "actionLink": "",
+                    "external": false
                 }
             ]
         },
@@ -321,8 +324,9 @@
             "profileId": 17,
             "callsToAction": [
                 {
-                    "text": "click here to find out more",
-                    "actionLink": ""
+                    "text": "Click here to find out more",
+                    "actionLink": "",
+                    "external": false
                 }
             ]
         }
@@ -651,10 +655,10 @@
             "id": "Tjj713",
             "company": "PLUM Limited",
             "title": "Security Analyst",
-            "description": "PLUM Limited are hiring a Security Analyst",
+            "description": "Plum Limited are looking for a ambitious and talented security analyst to support our new international operations. We are looking for somebody who can develop into the role over the next few years with potential to progress to Senior or Lead Security Analyst. We are interested in aptitude rather than certifications and are happy to consider applications from those who may not have much experience working in cyber.",
             "callsToAction": [
                 {
-                    "text": "click here to find out more"
+                    "text": "Click here to find out more"
                 }
             ],
             "sections": [
@@ -725,10 +729,10 @@
             "id": "867e9X",
             "company": "PLUM Limited",
             "title": "Security Analyst",
-            "description": "PLUM Limited are hiring a Security Analyst",
+            "description": "Plum Limited are looking for a ambitious and talented security analyst to support our new international operations. We are looking for somebody who can develop into the role over the next few years with potential to progress to Senior or Lead Security Analyst. We are interested in aptitude rather than certifications and are happy to consider applications from those who may not have much experience working in cyber.",
             "callsToAction": [
                 {
-                    "text": "click here to find out more"
+                    "text": "Click here to find out more"
                 }
             ],
             "sections": [

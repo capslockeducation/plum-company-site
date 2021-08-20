@@ -17,6 +17,7 @@ const JobPost = styled(Container)`
     border: solid 1px coral;
     box-shadow: 2px 2px 2px grey;
     margin-bottom: 20px;
+    max-width: 45%;
 
     @media screen and (max-width: 750px) {
         padding: 0;

@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react'
 import InfoSection, { TextWrapper, ActionContainer } from '../components/InfoSection'
-import { NavLink } from 'react-router-dom'
 import Container, { Contain } from '../containers/Container'
 import styled from 'styled-components'
 
@@ -74,6 +73,10 @@ const Team = () => {
         setEmployees(data.employees);
         setIsLoading(false);
     }, [])
+
+    const isEmptyLink = (link) => {
+        return link.actionLink !== ""
+    }
     
     return (
         <>
@@ -87,6 +90,7 @@ const Team = () => {
                         />
                         <CardGallery>
                                 {employees.map(employee => {
+                                    let links = employee.callsToAction.filter(isEmptyLink)
                                     return <CardContainer key={employee.id}>
                                             <AboutCard
                                             headline={employee.fullName}
@@ -97,7 +101,7 @@ const Team = () => {
                                             start="true"
                                             alt={`${employee.titleAbbr} ${employee.fullName}`}
                                             lightSection="true"
-                                            callsToAction={employee.callsToAction}
+                                            callsToAction={links}
                                             >
                                                 {/* {employee.quote} */}
                                             </AboutCard>
