@@ -11,9 +11,12 @@ const Nav = styled.nav`
     position: fixed;
     height: 100px;
     width: 100%;
-    /* padding: 0.5rem calc((100vw - 1280px) / 2); */
     justify-content: space-between;
     z-index: 10;
+
+    @media screen and (max-width: 790px) {
+        /* justify-content: center; */
+    }
 `
 
 const NavImage = styled.img`
@@ -62,7 +65,6 @@ const NavItem = styled.li`
         }
 
     @media screen and (max-width: 790px) {
-        // FIXME this styling with new layout
         display: flex;
         justify-content: center;
         width: 100%;
@@ -136,9 +138,11 @@ const MobileIcon = styled.div`
 
     @media screen and (max-width: 790px) {
         display: block;
+        /* position: relative; */
         top: 0;
         right: 0;
-        transform: translate(-100%, 40%);
+        transform: translate(-200%, 40%);
+        margin-left: 2vw;
     }
 `
 

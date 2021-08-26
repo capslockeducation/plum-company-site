@@ -9,6 +9,10 @@ const JobBoard = styled(Container)`
     display: flex;
     justify-content: space-around;
     flex-flow: row wrap;
+
+    @media screen and (max-width: 900px) {
+        flex-flow: column nowrap;
+    }
 `
 
 const JobPost = styled(Container)`
@@ -19,21 +23,17 @@ const JobPost = styled(Container)`
     margin-bottom: 20px;
     max-width: 45%;
 
-    @media screen and (max-width: 750px) {
-        padding: 0;
-        width: 100%;
+    @media screen and (max-width: 900px) {
+        max-width: 100%;
+        width: auto;
     }
 `
 
 const JobSection = styled(InfoSection)`
-    padding: 0 4rem;
+    padding: 0;
     display: flex;
     justify-content: center;
-
-    @media screen and (max-width: 750px) {
-        padding: 0;
-        width: 100%;
-    }
+    width: 100%;
 `
 
 const JobsBoard = () => {
