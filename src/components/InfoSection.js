@@ -7,6 +7,10 @@ const InfoSec = styled.div`
     padding: 160px 0;
     background: ${({ lightSection }) => (lightSection === "true" ? '#fff' : '#763459')};
     color: ${({ lightSection }) => (lightSection === "true" ? 'black' : 'white')};
+
+    @media screen and (max-width: 790px) {
+        padding: 0;
+    }
 `
 
 export const InfoRow = styled.div`
@@ -34,6 +38,10 @@ export const InfoColumn = styled.div`
 export const TextWrapper = styled.div`
     padding: 0 5rem;
     padding-bottom: 60px;
+
+    @media screen and (max-width: 790px) {
+        padding: 0px;
+    }
 `
 
 const Heading = styled.h1`
