@@ -23,5 +23,5 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# custom build script
-build.sh
+# custom settings
+.vscode
